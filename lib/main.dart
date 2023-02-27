@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("my first app"),
         ),
-        body: Text("What is your name?"),
+        body: Text("What is your name"),
       ),
     );
   }
