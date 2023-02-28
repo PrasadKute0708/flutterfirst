@@ -22,8 +22,14 @@ class MyApp extends StatelessWidget {
         ),
         body: Column(children: [
           Text("Which is your favourite operating system?"),
-          ElevatedButton(child: Text('Windows'), onPressed: answerone),
-          ElevatedButton(child: Text('Apple'), onPressed: answertwo),
+          ElevatedButton(
+              child: Text('Windows'),
+              onPressed: () {
+                // comments...
+                print("answer one chosen!");
+              }),
+          ElevatedButton(
+              child: Text('Apple'), onPressed: () => print("answer 2 chosen!")),
         ]),
       ),
     );
